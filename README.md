@@ -1,2 +1,2 @@
 # infynow-website
-# sohil updated readme file 
+# sohil updated readme file
