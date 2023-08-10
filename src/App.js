@@ -1,14 +1,18 @@
-import logo from './logo.svg';
-import './App.css';
-import ContainerExample from './Screens';
-import 'bootstrap/dist/css/bootstrap.min.css';
-
+import "./App.css";
+import ContainerExample from "./Screens";
+import Contact from "./Screens/Contact/index";
+import "bootstrap/dist/css/bootstrap.min.css";
+import "./Screens/Contact/Contact.css";
 
 function App() {
   return (
-   <>
-   <ContainerExample/>
-   </>
+    <>
+      <div className="bg">
+        <Contact />
+
+        {/* <ContainerExample/> */}
+      </div>
+    </>
   );
 }
 

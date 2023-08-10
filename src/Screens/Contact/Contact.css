@@ -1,0 +1,29 @@
+.bg{
+    background-image: url('../../Components/Images/bg.jfif');
+    background-size: cover;
+    width: 100%;
+    overflow-y: scroll;
+    overflow-x: hidden;
+    font-family: 'Montserrat', sans-serif;
+    animation: AnimationName 35s ease infinite;
+}
+@keyframes AnimationName {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+.icon a{
+    color: black;
+}
+.icon a:hover{
+    color: #325bf0c2;
+}
+ .bt:hover{
+    background: #faa747c3;
+}
