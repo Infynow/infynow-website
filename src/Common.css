@@ -1,0 +1,151 @@
+.mainBackground {
+  background-image: url("../src/Images/Bg1.jpg");
+  background-size: cover;
+  width: 100%;
+  height: 100%;
+  overflow-y: scroll;
+  overflow-x: hidden;
+  animation: AnimationName 35s ease infinite;
+  position: absolute;
+}
+@keyframes AnimationName {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+.navWrapper {
+  display: flex;
+  justify-content: space-between;
+  /* background-color: #0a61ee0f; */
+  height: 150px;
+}
+
+.text-start a {
+  text-decoration: none;
+  font-size: 23px;
+  color: black;
+  font-weight: bold;
+  font-family: "Montserrat", sans-serif;
+}
+
+.text-start a {
+  color: white;
+}
+.text-start a:hover {
+  color: white;
+  border-bottom: 1px solid black;
+  padding: 5px;
+  letter-spacing: 2px;
+  transition: 0.1s;
+}
+.backgroundCanvas {
+  background: linear-gradient(270deg, #ed9735c3, #3f66f3c2);
+  opacity: 0.9;
+  background-size: 400% 400%;
+  /* display: flex; */
+  overflow: hidden;
+  justify-content: space-between;
+  animation: AnimationName 10s ease infinite;
+}
+
+@keyframes AnimationName {
+  0% {
+    background-position: 9% 0%;
+  }
+  50% {
+    background-position: 92% 100%;
+  }
+  100% {
+    background-position: 9% 0%;
+  }
+}
+.navIcons {
+  display: flex;
+
+  gap: 20px;
+  margin-top: 20px;
+}
+.navIcons a {
+  font-size: 30px;
+  color: white;
+}
+.navIcons a:hover {
+  border-bottom: none;
+
+  font-size: 28px;
+  color: black;
+}
+
+.textInfynow h1 {
+  font-size: 130px;
+  font-family: "Poppins", sans-serif;
+  background: -webkit-linear-gradient(#f39b36, #3f66f3);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  /* margin-top: 12%; */
+}
+.textInfynow h5 {
+  font-size: 70px;
+  font-family: "Poppins", sans-serif;
+  background: -webkit-linear-gradient(#f39b36, #3f66f3);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.textInfynow a {
+  text-decoration: none;
+  font-size: 30px;
+  font-family: "Poppins", sans-serif;
+  padding: 10px;
+  color: white;
+  border-radius: 50px;
+  border: 1px solid white;
+}
+.textInfynow a:hover {
+  background: linear-gradient(270deg, #ed9735c3, #3f66f3c2);
+  transition: 0.2s;
+  color: black;
+}
+.ServiceHead {
+  font-family: "Poppins", sans-serif;
+  background: -webkit-linear-gradient(#f39b36, #3f66f3);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-size: 90px;
+  font-weight: bold;
+}
+.underLine {
+  height: 2px;
+  width: 500px;
+  background-color: white;
+  border-radius: 50px;
+}
+.heading {
+  font-family: "Poppins", sans-serif;
+  background: -webkit-linear-gradient(#f39b36, #3f66f3);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-weight: bold;
+}
+.descp {
+  font-family: "Montserrat", sans-serif;
+  font-size: 20px;
+}
+.gotoService {
+  text-decoration: none;
+  color: white;
+  border: 1px solid white;
+  padding: 10px;
+  border-radius: 50px;
+  font-family: "Montserrat", sans-serif;
+}
+.gotoService:hover {
+  background: linear-gradient(270deg, #ed9735c3, #3f66f3c2);
+  letter-spacing: 2px;
+  transition: 0.2s;
+}
