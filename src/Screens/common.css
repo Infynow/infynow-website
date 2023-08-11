@@ -1,0 +1,95 @@
+.typed {
+    font-family: 'Stylish', sans-serif;
+   color:rgb(2, 9, 9);
+}
+.main{
+    background: linear-gradient(270deg, #ffffff, #dcdbe3);
+    /* background-size: 400% 400%; */
+padding: 20px;
+    animation: AnimationName 23s ease infinite;
+    min-height:100%;
+}
+
+@keyframes AnimationName {
+    0%{background-position:0% 50%}
+    50%{background-position:100% 50%}
+    100%{background-position:0% 50%}
+}
+h5{
+    font-family:'Gotu', sans-serif ;
+}
+
+.animate__animated ,.about{
+    animation-delay: 2s 2s;
+    animation-duration: 5s;
+}
+color{
+    color: rgb(207, 133, 6);
+}
+
+/* card css */
+@import url(https://fonts.googleapis.com/css?family=Lato);
+
+.container-main {
+
+  .card {
+    margin: 1em;
+    border: none;
+
+    .card-img-top {
+      
+      z-index: 2;
+      height: 200px;
+      transform: translateY(52%);
+      transition: 0.5s;
+    }
+
+    .card-body {
+      z-index: 1;
+      background: rgb(207, 202, 202);
+      box-shadow: 0 2.8px 2.2px rgba(0, 0, 0, 0.056),
+        0 6.7px 5.3px rgba(0, 0, 0, 0.081), 0 12.5px 10px rgba(0, 0, 0, 0.1),
+        0 22.3px 17.9px rgba(0, 0, 0, 0.119),
+        0 41.8px 33.4px rgba(0, 0, 0, 0.144), 0 100px 80px rgba(0, 0, 0, 0.2);
+      transform: translateY(-50%);
+      transition: 0.5s;
+      
+
+      .card-title {
+        margin: 0 0 0.75em 0;
+        font-size: 1.25em;
+        font-weight: bold;
+        line-height: 1.2;
+      }
+
+      .card-text {
+        margin: 0 0 1em 0;
+      }
+
+      /* .btn {
+        padding: 0.375em 0.75em;
+        color: black;
+        text-decoration: none;
+        line-height: 1.5;
+        border: 1px solid black;
+        border-radius: 0.25em;
+        transition: 0.5s;
+
+        &:hover {
+          color: white;
+          background: black;
+        }
+      } */
+    }
+
+    &:hover {
+      .card-img-top {
+        transform: translateY(2%);
+      }
+
+      .card-body {
+        transform: translateY(0);
+      }
+    }
+  }
+}

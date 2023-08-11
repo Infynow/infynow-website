@@ -1,13 +1,18 @@
-import logo from './logo.svg';
-import './App.css';
-import ContainerExample from './Screens';
+
 import 'bootstrap/dist/css/bootstrap.min.css';
+import About from './Screens/AboutPap';
+import Card from './Screens/Card'
+import Home from './Screens';
+import Enrollment from './Screens/Enrollment';
 
 
 function App() {
   return (
    <>
-   <ContainerExample/>
+  <Home/>
+   <Enrollment/>
+   <About/>
+   <Card/>
    </>
   );
 }
